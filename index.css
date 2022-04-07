@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 header{
     display: flex;
@@ -8,7 +9,7 @@ header{
 }
 
 .assistir{
-    width: 300px;
+    width: 350px;
     color: white;
     font-size: 30px;
     margin-top: 65px;
@@ -19,12 +20,17 @@ section{
     margin: 0 auto;
 }
 section ul{
-    max-width: 900px;
+    max-width: 700px;
     display: flex;
     justify-content: space-around;
     margin-left: 160px;
     margin-top: 30px;
     
+}
+
+.imagem{
+    width: 160px;
+    height: 160px;
 }
 
 a{
